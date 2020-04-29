@@ -1,37 +1,42 @@
 # Real Estate Django Web App
 
-A real estate listings website built with `python` `django` `bootstrap`.
-
+A real estate listings website built with `python` `django` `bootstrap` and `postgreSQL`
+The app also has an admin panel to manage listings and realtors.
 A simple, reponsive  website. Built with:
 
-- Python
-- Django
+- Python 3
+- Django 2
 - Bootstrap 4
 - Vanilla JS - ES6
 - JQuery
+- PostgreSQL
 
-### HomePage - Brand Section: 
+### HomePage: 
 ![FrontEnd](screens/home.png "Real Estate Django Web App")
 
-### AboutPage - Products Section: 
+### AboutPage: 
 ![FrontEnd](screens/about.png "Real Estate Django Web App")
 
-### FeaturedListingsPage - Cart Section: 
+### FeaturedListingsPage: 
 ![FrontEnd](screens/listings.png "Real Estate Django Web App")
 
-### DashboardPage - Cart Section: 
+### DashboardPage: 
 ![FrontEnd](screens/dashboard.png "Real Estate Django Web App")
 
-### RegisterPage - Cart Section: 
+### RegisterPage: 
 ![FrontEnd](screens/register.png "Real Estate Django Web App")
 
-### LoginPage - Cart Section: 
+### LoginPage: 
 ![FrontEnd](screens/login.png "Real Estate Django Web App")
 
-### AdminPanel - Cart Section: 
+### AdminPanel: 
 ![FrontEnd](screens/adminPanel.png "Real Estate Django Web App")
 
 ### Live Demo
 _heroku_  https://realestatedjangoproject.herokuapp.com
+
+## Acknowledgments
+
+Many thanks to [@bradtraversy](https://github.com/bradtraversy) for his awesome course.
 
 
