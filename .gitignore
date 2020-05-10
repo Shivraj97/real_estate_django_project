@@ -10,6 +10,6 @@ db.sqlite3-journal
 venv
 /static
 /media
-requirements.txt
-runtime.txt
-Procfile
+/requirements.txt
+/runtime.txt
+/Procfile
