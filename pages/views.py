@@ -1,9 +1,23 @@
 from django.shortcuts import render
+
 from django.http import HttpResponse
 from listings.choices import price_choices, bedroom_choices, state_choices
 
 from listings.models import Listing
 from realtors.models import Realtor
+
+def handler404(request, exception):
+    context = {}
+    response = render(request, "404.html", context=context)
+    response.status_code = 404
+    return response
+
+
+def handler500(request):
+    context = {}
+    response = render(request, "500.html", context=context)
+    response.status_code = 500
+    return response
  
 def index(request):
     # Get all listings
